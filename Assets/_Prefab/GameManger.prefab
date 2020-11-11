@@ -1,0 +1,322 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &6914324015535292089
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 6914324015535292095}
+  - component: {fileID: 6914324015535292094}
+  - component: {fileID: 6914324015535292092}
+  - component: {fileID: 6914324015535292093}
+  - component: {fileID: 6914324015535292067}
+  m_Layer: 0
+  m_Name: GameManger
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &6914324015535292095
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6914324015535292089}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!82 &6914324015535292094
+AudioSource:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6914324015535292089}
+  m_Enabled: 1
+  serializedVersion: 4
+  OutputAudioMixerGroup: {fileID: 0}
+  m_audioClip: {fileID: 8300000, guid: 813d5084b54379e48aff0e854dad0df9, type: 3}
+  m_PlayOnAwake: 1
+  m_Volume: 0.2
+  m_Pitch: 1
+  Loop: 1
+  Mute: 0
+  Spatialize: 0
+  SpatializePostEffects: 0
+  Priority: 128
+  DopplerLevel: 1
+  MinDistance: 1
+  MaxDistance: 500
+  Pan2D: 0
+  rolloffMode: 0
+  BypassEffects: 0
+  BypassListenerEffects: 0
+  BypassReverbZones: 0
+  rolloffCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    - serializedVersion: 3
+      time: 1
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  panLevelCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  spreadCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 0
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+  reverbZoneMixCustomCurve:
+    serializedVersion: 2
+    m_Curve:
+    - serializedVersion: 3
+      time: 0
+      value: 1
+      inSlope: 0
+      outSlope: 0
+      tangentMode: 0
+      weightedMode: 0
+      inWeight: 0.33333334
+      outWeight: 0.33333334
+    m_PreInfinity: 2
+    m_PostInfinity: 2
+    m_RotationOrder: 4
+--- !u!114 &6914324015535292092
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6914324015535292089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 01b7ad20ee6cb444688a1b0bd0688df5, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Levels:
+  - spwanEnemies:
+    - {fileID: 7906846971722968110, guid: 66a21db880505dc41874c3ae39d9fb80, type: 3}
+    SpwanPoints:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    LevelGate: {fileID: 0}
+    enemiesCountToSpwan: 3
+  - spwanEnemies:
+    - {fileID: 7906846971722968110, guid: 66a21db880505dc41874c3ae39d9fb80, type: 3}
+    SpwanPoints:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    LevelGate: {fileID: 0}
+    enemiesCountToSpwan: 9
+  - spwanEnemies:
+    - {fileID: 7906846971722968110, guid: 66a21db880505dc41874c3ae39d9fb80, type: 3}
+    - {fileID: 5537757736735152735, guid: aa9e75810c3e8d04085fada52e8fe527, type: 3}
+    SpwanPoints:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    LevelGate: {fileID: 0}
+    enemiesCountToSpwan: 6
+  - spwanEnemies:
+    - {fileID: 5537757736735152735, guid: aa9e75810c3e8d04085fada52e8fe527, type: 3}
+    SpwanPoints:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    LevelGate: {fileID: 0}
+    enemiesCountToSpwan: 6
+  - spwanEnemies:
+    - {fileID: 7906846971722968110, guid: 66a21db880505dc41874c3ae39d9fb80, type: 3}
+    - {fileID: 5537757736735152735, guid: aa9e75810c3e8d04085fada52e8fe527, type: 3}
+    SpwanPoints:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    LevelGate: {fileID: 0}
+    enemiesCountToSpwan: 5
+  - spwanEnemies:
+    - {fileID: 7906846971722968110, guid: 66a21db880505dc41874c3ae39d9fb80, type: 3}
+    - {fileID: 5537757736735152735, guid: aa9e75810c3e8d04085fada52e8fe527, type: 3}
+    - {fileID: 6947038262507603124, guid: 5e2430fc9a3e2f643a88eea3d7d47406, type: 3}
+    SpwanPoints:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    LevelGate: {fileID: 0}
+    enemiesCountToSpwan: 11
+  - spwanEnemies:
+    - {fileID: 7906846971722968110, guid: 66a21db880505dc41874c3ae39d9fb80, type: 3}
+    - {fileID: 6947038262507603124, guid: 5e2430fc9a3e2f643a88eea3d7d47406, type: 3}
+    SpwanPoints:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    LevelGate: {fileID: 0}
+    enemiesCountToSpwan: 8
+  - spwanEnemies:
+    - {fileID: 5537757736735152735, guid: aa9e75810c3e8d04085fada52e8fe527, type: 3}
+    SpwanPoints:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    LevelGate: {fileID: 0}
+    enemiesCountToSpwan: 8
+  - spwanEnemies:
+    - {fileID: 5537757736735152735, guid: aa9e75810c3e8d04085fada52e8fe527, type: 3}
+    - {fileID: 6947038262507603124, guid: 5e2430fc9a3e2f643a88eea3d7d47406, type: 3}
+    SpwanPoints:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    LevelGate: {fileID: 0}
+    enemiesCountToSpwan: 10
+  - spwanEnemies:
+    - {fileID: 6947038262507603124, guid: 5e2430fc9a3e2f643a88eea3d7d47406, type: 3}
+    SpwanPoints:
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    - {fileID: 0}
+    LevelGate: {fileID: 0}
+    enemiesCountToSpwan: 12
+  countDeadEnemies: 0
+  openGateMat: {fileID: 2100000, guid: a5589e120d6275349a9feec141a79958, type: 2}
+  closeGateMat: {fileID: 2100000, guid: d71d4ee256bdd92488989f1e7df91109, type: 2}
+  leveltext: {fileID: 0}
+  levelCount: 0
+--- !u!114 &6914324015535292093
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6914324015535292089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 3a8a43d95e10ed44699e7a66ecb7a774, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+--- !u!114 &6914324015535292067
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6914324015535292089}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 30a7d0f577d560740aed09cf1e5c6545, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playersPrefabs:
+  - {fileID: 1681385963374720271, guid: c40eb70d67031034bb346302ac07e4c4, type: 3}
+  - {fileID: 4084455364465230356, guid: 17016d7f8a5e98f43973f09095ab3d23, type: 3}
+  - {fileID: 5767786850792901084, guid: f5bdd6297673b094ba3dd0f20ea22539, type: 3}
+  - {fileID: 9012646465883381579, guid: d6df3a14f145eea45970040ffc1c66fe, type: 3}
+  - {fileID: 6418988368323437959, guid: 2fdf9b1fc92e64547a6e1d1b580baad8, type: 3}
+  - {fileID: 8693521125037658791, guid: 1c2f9939a06ad5a44b9e2b5a3634fe68, type: 3}
+  - {fileID: 8715322530949764619, guid: 7fd9452701635844484afd18fa42ed33, type: 3}
+  - {fileID: 7169895687359348237, guid: ef9c4534103a0e144ade9bb695003399, type: 3}
+  - {fileID: 5464565674881461809, guid: e7e308195c87d844491c8bbd807ff675, type: 3}
+  - {fileID: 1900329718687739045, guid: 08cb84d71ddcf8e4cb42749d1991c529, type: 3}
+  - {fileID: 3866314044502620010, guid: 4d57d3c9f3571804396b940ea61751c3, type: 3}
+  instantiatePoint: {fileID: 0}
+  camera: {fileID: 0}
+  player: {fileID: 0}

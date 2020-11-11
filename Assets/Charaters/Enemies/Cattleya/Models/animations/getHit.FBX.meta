@@ -1,0 +1,270 @@
+fileFormatVersion: 2
+guid: fc5ba5cb35ca62247a7891900de3c410
+timeCreated: 1567651871
+licenseType: Store
+ModelImporter:
+  serializedVersion: 19
+  fileIDToRecycleName:
+    100000: Box001
+    100002: //RootNode
+    100004: ghost_bone_dress_1
+    100006: ghost_bone_dress_2
+    100008: ghost_bone_dress_3
+    100010: ghost_bone_head
+    100012: ghost_bone_left_arm_1
+    100014: ghost_bone_left_arm_2
+    100016: ghost_bone_left_finger_1
+    100018: ghost_bone_left_finger_10
+    100020: ghost_bone_left_finger_11
+    100022: ghost_bone_left_finger_2
+    100024: ghost_bone_left_finger_3
+    100026: ghost_bone_left_finger_4
+    100028: ghost_bone_left_finger_5
+    100030: ghost_bone_left_finger_6
+    100032: ghost_bone_left_finger_7
+    100034: ghost_bone_left_finger_8
+    100036: ghost_bone_left_finger_9
+    100038: ghost_bone_left_shoulders
+    100040: ghost_bone_left_wrist
+    100042: ghost_bone_main
+    100044: ghost_bone_right_arm_1
+    100046: ghost_bone_right_arm_2
+    100048: ghost_bone_right_finger_1
+    100050: ghost_bone_right_finger_10
+    100052: ghost_bone_right_finger_11
+    100054: ghost_bone_right_finger_2
+    100056: ghost_bone_right_finger_3
+    100058: ghost_bone_right_finger_4
+    100060: ghost_bone_right_finger_5
+    100062: ghost_bone_right_finger_6
+    100064: ghost_bone_right_finger_7
+    100066: ghost_bone_right_finger_8
+    100068: ghost_bone_right_finger_9
+    100070: ghost_bone_right_shoulders
+    100072: ghost_bone_right_wrist
+    100074: ghost_bone_tors
+    100076: IK Chain001
+    100078: IK Chain002
+    400000: Box001
+    400002: //RootNode
+    400004: ghost_bone_dress_1
+    400006: ghost_bone_dress_2
+    400008: ghost_bone_dress_3
+    400010: ghost_bone_head
+    400012: ghost_bone_left_arm_1
+    400014: ghost_bone_left_arm_2
+    400016: ghost_bone_left_finger_1
+    400018: ghost_bone_left_finger_10
+    400020: ghost_bone_left_finger_11
+    400022: ghost_bone_left_finger_2
+    400024: ghost_bone_left_finger_3
+    400026: ghost_bone_left_finger_4
+    400028: ghost_bone_left_finger_5
+    400030: ghost_bone_left_finger_6
+    400032: ghost_bone_left_finger_7
+    400034: ghost_bone_left_finger_8
+    400036: ghost_bone_left_finger_9
+    400038: ghost_bone_left_shoulders
+    400040: ghost_bone_left_wrist
+    400042: ghost_bone_main
+    400044: ghost_bone_right_arm_1
+    400046: ghost_bone_right_arm_2
+    400048: ghost_bone_right_finger_1
+    400050: ghost_bone_right_finger_10
+    400052: ghost_bone_right_finger_11
+    400054: ghost_bone_right_finger_2
+    400056: ghost_bone_right_finger_3
+    400058: ghost_bone_right_finger_4
+    400060: ghost_bone_right_finger_5
+    400062: ghost_bone_right_finger_6
+    400064: ghost_bone_right_finger_7
+    400066: ghost_bone_right_finger_8
+    400068: ghost_bone_right_finger_9
+    400070: ghost_bone_right_shoulders
+    400072: ghost_bone_right_wrist
+    400074: ghost_bone_tors
+    400076: IK Chain001
+    400078: IK Chain002
+    4300000: Box001
+    7400000: getHit
+    9500000: //RootNode
+    13700000: Box001
+  materials:
+    importMaterials: 1
+    materialName: 0
+    materialSearch: 1
+  animations:
+    legacyGenerateAnimations: 4
+    bakeSimulation: 0
+    resampleCurves: 1
+    optimizeGameObjects: 0
+    motionNodeName: 
+    rigImportErrors: 
+    rigImportWarnings: 
+    animationImportErrors: 
+    animationImportWarnings: 
+    animationRetargetingWarnings: 
+    animationDoRetargetingWarnings: 0
+    animationCompression: 1
+    animationRotationError: 0.5
+    animationPositionError: 0.5
+    animationScaleError: 0.5
+    animationWrapMode: 0
+    extraExposedTransformPaths: []
+    clipAnimations:
+    - serializedVersion: 16
+      name: getHit
+      takeName: Take 001
+      firstFrame: 0
+      lastFrame: 27
+      wrapMode: 0
+      orientationOffsetY: 0
+      level: 0
+      cycleOffset: 0
+      loop: 0
+      hasAdditiveReferencePose: 0
+      loopTime: 0
+      loopBlend: 0
+      loopBlendOrientation: 0
+      loopBlendPositionY: 0
+      loopBlendPositionXZ: 0
+      keepOriginalOrientation: 0
+      keepOriginalPositionY: 1
+      keepOriginalPositionXZ: 0
+      heightFromFeet: 0
+      mirror: 0
+      bodyMask: 01000000010000000100000001000000010000000100000001000000010000000100000001000000010000000100000001000000
+      curves: []
+      events: []
+      transformMask:
+      - path: 
+        weight: 1
+      - path: Box001
+        weight: 1
+      - path: ghost_bone_main
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_dress_1
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_dress_2
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_dress_3
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_head
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_left_shoulders
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_left_shoulders/ghost_bone_left_arm_1
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_left_shoulders/ghost_bone_left_arm_1/ghost_bone_left_arm_2
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_left_shoulders/ghost_bone_left_arm_1/ghost_bone_left_arm_2/ghost_bone_left_wrist
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_left_shoulders/ghost_bone_left_arm_1/ghost_bone_left_arm_2/ghost_bone_left_wrist/ghost_bone_left_finger_1
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_left_shoulders/ghost_bone_left_arm_1/ghost_bone_left_arm_2/ghost_bone_left_wrist/ghost_bone_left_finger_1/ghost_bone_left_finger_2
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_left_shoulders/ghost_bone_left_arm_1/ghost_bone_left_arm_2/ghost_bone_left_wrist/ghost_bone_left_finger_3
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_left_shoulders/ghost_bone_left_arm_1/ghost_bone_left_arm_2/ghost_bone_left_wrist/ghost_bone_left_finger_3/ghost_bone_left_finger_4
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_left_shoulders/ghost_bone_left_arm_1/ghost_bone_left_arm_2/ghost_bone_left_wrist/ghost_bone_left_finger_3/ghost_bone_left_finger_4/ghost_bone_left_finger_5
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_left_shoulders/ghost_bone_left_arm_1/ghost_bone_left_arm_2/ghost_bone_left_wrist/ghost_bone_left_finger_6
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_left_shoulders/ghost_bone_left_arm_1/ghost_bone_left_arm_2/ghost_bone_left_wrist/ghost_bone_left_finger_6/ghost_bone_left_finger_7
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_left_shoulders/ghost_bone_left_arm_1/ghost_bone_left_arm_2/ghost_bone_left_wrist/ghost_bone_left_finger_6/ghost_bone_left_finger_7/ghost_bone_left_finger_8
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_left_shoulders/ghost_bone_left_arm_1/ghost_bone_left_arm_2/ghost_bone_left_wrist/ghost_bone_left_finger_9
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_left_shoulders/ghost_bone_left_arm_1/ghost_bone_left_arm_2/ghost_bone_left_wrist/ghost_bone_left_finger_9/ghost_bone_left_finger_10
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_left_shoulders/ghost_bone_left_arm_1/ghost_bone_left_arm_2/ghost_bone_left_wrist/ghost_bone_left_finger_9/ghost_bone_left_finger_10/ghost_bone_left_finger_11
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_right_shoulders
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_right_shoulders/ghost_bone_right_arm_1
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_right_shoulders/ghost_bone_right_arm_1/ghost_bone_right_arm_2
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_right_shoulders/ghost_bone_right_arm_1/ghost_bone_right_arm_2/ghost_bone_right_wrist
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_right_shoulders/ghost_bone_right_arm_1/ghost_bone_right_arm_2/ghost_bone_right_wrist/ghost_bone_right_finger_1
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_right_shoulders/ghost_bone_right_arm_1/ghost_bone_right_arm_2/ghost_bone_right_wrist/ghost_bone_right_finger_1/ghost_bone_right_finger_2
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_right_shoulders/ghost_bone_right_arm_1/ghost_bone_right_arm_2/ghost_bone_right_wrist/ghost_bone_right_finger_3
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_right_shoulders/ghost_bone_right_arm_1/ghost_bone_right_arm_2/ghost_bone_right_wrist/ghost_bone_right_finger_3/ghost_bone_right_finger_4
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_right_shoulders/ghost_bone_right_arm_1/ghost_bone_right_arm_2/ghost_bone_right_wrist/ghost_bone_right_finger_3/ghost_bone_right_finger_4/ghost_bone_right_finger_5
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_right_shoulders/ghost_bone_right_arm_1/ghost_bone_right_arm_2/ghost_bone_right_wrist/ghost_bone_right_finger_6
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_right_shoulders/ghost_bone_right_arm_1/ghost_bone_right_arm_2/ghost_bone_right_wrist/ghost_bone_right_finger_6/ghost_bone_right_finger_7
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_right_shoulders/ghost_bone_right_arm_1/ghost_bone_right_arm_2/ghost_bone_right_wrist/ghost_bone_right_finger_6/ghost_bone_right_finger_7/ghost_bone_right_finger_8
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_right_shoulders/ghost_bone_right_arm_1/ghost_bone_right_arm_2/ghost_bone_right_wrist/ghost_bone_right_finger_9
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_right_shoulders/ghost_bone_right_arm_1/ghost_bone_right_arm_2/ghost_bone_right_wrist/ghost_bone_right_finger_9/ghost_bone_right_finger_10
+        weight: 1
+      - path: ghost_bone_main/ghost_bone_tors/ghost_bone_right_shoulders/ghost_bone_right_arm_1/ghost_bone_right_arm_2/ghost_bone_right_wrist/ghost_bone_right_finger_9/ghost_bone_right_finger_10/ghost_bone_right_finger_11
+        weight: 1
+      - path: IK Chain001
+        weight: 1
+      - path: IK Chain002
+        weight: 1
+      maskType: 3
+      maskSource: {instanceID: 0}
+      additiveReferencePoseFrame: 0
+    isReadable: 1
+  meshes:
+    lODScreenPercentages: []
+    globalScale: 1
+    meshCompression: 0
+    addColliders: 0
+    importBlendShapes: 1
+    swapUVChannels: 0
+    generateSecondaryUV: 0
+    useFileUnits: 1
+    optimizeMeshForGPU: 1
+    keepQuads: 0
+    weldVertices: 1
+    secondaryUVAngleDistortion: 8
+    secondaryUVAreaDistortion: 15.000001
+    secondaryUVHardAngle: 88
+    secondaryUVPackMargin: 4
+    useFileScale: 1
+  tangentSpace:
+    normalSmoothAngle: 60
+    normalImportMode: 0
+    tangentImportMode: 3
+  importAnimation: 1
+  copyAvatar: 1
+  humanDescription:
+    serializedVersion: 2
+    human: []
+    skeleton: []
+    armTwist: 0.5
+    foreArmTwist: 0.5
+    upperLegTwist: 0.5
+    legTwist: 0.5
+    armStretch: 0.05
+    legStretch: 0.05
+    feetSpacing: 0
+    rootMotionBoneName: 
+    rootMotionBoneRotation: {x: 0, y: 0, z: 0, w: 1}
+    hasTranslationDoF: 0
+    hasExtraRoot: 0
+    skeletonHasParents: 1
+  lastHumanDescriptionAvatarSource: {fileID: 9000000, guid: 476c3b5b39f1f384f866a754af50a497,
+    type: 3}
+  animationType: 2
+  humanoidOversampling: 1
+  additionalBone: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
